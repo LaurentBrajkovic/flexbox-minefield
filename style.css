@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+:root {}
+
+html {
+    font-size: 100%;
+    font-family: 'VT323', monospace;
+}
+
+.conteneur {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border-style: ridge;
+    border-width: 20px;
+    width: 544px;
+    height: auto;
+    margin: auto;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    width: 62px;
+    height: 62px;
+    background-color: #CDCDCD;
+    border-style: dotted;
+    text-align: center;
+}
+
+.bomb {
+    padding: 5px;
+    width: 57px;
+}
+
+.item1 {
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 62px;
+    width: 62px;
+    height: 62px;
+    background-color: #CDCDCD;
+    border-style: dotted;
+    text-align: center;
+    border-color: black;
+}
+
+.item2 {
+    color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 62px;
+    width: 62px;
+    height: 62px;
+    background-color: #CDCDCD;
+    border-style: dotted;
+    text-align: center;
+    border-color: black;
+}
+
+.item3 {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 62px;
+    width: 62px;
+    height: 62px;
+    background-color: #CDCDCD;
+    border-style: dotted;
+    text-align: center;
+    border-color: black;
+}
+
+.unclicked {
+    width: 58px;
+    height: 58px;
+    border-style: outset;
+    border-width: 5px;
+    background-color: #CDCDCD;
+}
+
+.rick {
+    opacity: 0%;
+    width: 57px;
+    height: 57px;
+}
+
+.rick:hover {
+    opacity: 100%;
+    transition: 1.5s;
+}
